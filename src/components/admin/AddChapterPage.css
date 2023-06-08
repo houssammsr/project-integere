@@ -1,0 +1,78 @@
+.add-chapter-page-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-chapter-page-container .add-chapter-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-chapter-page-container .back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  background-color: none;
+}
+
+.add-chapter-page-container .back-button img {
+  width: 24px;
+}
+
+.add-chapter-page-container h2 {
+  margin-left: 10px;
+}
+
+.add-chapter-page-container .chapter-articles {
+  margin-bottom: 20px;
+}
+
+.add-chapter-page-container h3 {
+  margin-bottom: 10px;
+}
+
+.add-chapter-page-container .inp_chap,
+.add-chapter-page-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-chapter-page-container .cancel-button,
+.add-chapter-page-container .validate-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-chapter-page-container .cancel-button {
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+}
+
+.add-chapter-page-container .validate-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+.add-chapter-page-container .validate-button,
+.add-chapter-page-container .cancel-button {
+  transition: background-color 0.3s ease;
+}
+
+.add-chapter-page-container .validate-button:hover,
+.add-chapter-page-container .cancel-button:hover {
+  background-color: #0056b3;
+}
+.add-chapter-page-container .chapter-buttons {
+  display: flex;
+  justify-content: flex-end;
+}

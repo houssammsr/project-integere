@@ -1,0 +1,181 @@
+.request-table-container-versionv {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  height: 100vh;
+}
+.request-table-container-versionv .request-filters {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.request-table-container-versionv .filter-button-pending {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: "Poppins", "sans-serif";
+  color: yellow;
+  background-color: #d3cc16;
+  cursor: pointer;
+}
+.request-table-container-versionv .circle-minus {
+  background-color: #d3cc16;
+}
+.request-table-container-versionv .filter-button-rejected {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: "Poppins", "sans-serif";
+  color: #b11414;
+  background-color: #e29898;
+  cursor: pointer;
+}
+.request-table-container-versionv .times-circle {
+  background-color: #e29898;
+}
+.request-table-container-versionv .filter-button-accepted {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: "Poppins", "sans-serif";
+  color: #428777;
+  background-color: rgba(66, 135, 119, 0.1);
+  cursor: pointer;
+}
+.request-table-container-versionv .circle-check {
+  background-color: rgba(66, 135, 119, 0.1);
+}
+.request-table-container-versionv .filter-button-paid {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: "Poppins", "sans-serif";
+  color: #428777;
+  background-color: rgba(66, 135, 119, 0.1);
+  cursor: pointer;
+}
+.request-table-container-versionv .table {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 97%;
+  border-collapse: collapse;
+}
+.request-table-container-versionv .table-title {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-radius: 10px;
+  height: 45px;
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.request-table-container-versionv .table-title th {
+  height: 45px;
+  font-family: "Poppins", "sans-serif";
+  font-weight: bold;
+  padding: 10px;
+}
+.request-table-container-versionv .table-container {
+  border: 1px solid #000;
+  margin: 5px;
+}
+.request-table-container-versionv .table-container td {
+  font-family: "Poppins", "sans-serif";
+  font-weight: medium;
+  padding: 15px;
+}
+.request-table-container-versionv .table-container td:nth-child(1) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(2) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(3) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(4) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(5) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(6) {
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:nth-child(7) {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.request-table-container-versionv .table-container td:last-child {
+  text-align: center;
+}
+.request-table-container-versionv .amount-cell {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 600;
+}
+.request-table-container-versionv .table-container td.request-status-cell {
+  position: relative;
+}
+
+.request-table-container-versionv .request-status-cell {
+  padding: 0;
+}
+
+.request-table-container-versionv .request-status-cell span {
+  display: block;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 100px;
+  border-color: inherit;
+}
+
+.request-table-container-versionv .ellipsis {
+  cursor: pointer;
+}
+.request-table-container-versionv .pay-button {
+  width: 100px;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: #428777;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", "sans-serif";
+}
+.request-table-container-versionv .circle-check-pay {
+  background-color: #428777;
+  color: white;
+}
+
+.request-table-container-versionv .search-form {
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  border: 1px solid #cacaca;
+  background-color: #cacaca;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.request-table-container-versionv .search-input {
+  background-color: #cacaca;
+  border: 1px solid #cacaca;
+  border-radius: 20px;
+  padding: 8px;
+  width: 200px;
+}
+.request-table-container-versionv .search-button {
+  background-color: #cacaca;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.request-table-container-versionv .search-icon {
+  color: black;
+  background-color: #cacaca;
+}

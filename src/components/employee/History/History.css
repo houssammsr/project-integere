@@ -1,0 +1,162 @@
+.request-table-container-historyvv .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.request-table-container-historyvv .table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.request-table-container-historyvv .table-container td:nth-child(1) {
+  text-align: center;
+}
+
+.request-table-container-historyvv .table-container td:nth-child(2) {
+  text-align: center;
+}
+
+.request-table-container-historyvv .table-container td:nth-child(3) {
+  text-align: center;
+}
+
+.request-table-container-historyvv .table-container td:nth-child(4) {
+  text-align: center;
+}
+
+.request-table-container-historyvv .table-container td:nth-child(5) {
+  color: #9babc5;
+  text-align: center;
+}
+.request-table-container-historyvv .table-container td:nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.request-table-container-historyvv .table-container td:nth-child(7) {
+  text-align: center;
+}
+
+.request-table-container-historyvv .payment-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  font-size: 0; /* to remove the space between inline-block elements */
+}
+.request-table-container-historyvv .payment-cell .status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 100%;
+}
+
+.request-table-container-historyvv .payment-cell.paid {
+  color: #428777;
+  border: 2px solid #428777;
+}
+
+.request-table-container-historyvv .payment-cell.not-paid {
+  color: #ee4444;
+  border: 2px solid #ee4444;
+}
+
+.request-table-container-historyvv .payment-cell:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.request-table-container-historyvv .table-title {
+  color: #9babc5;
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.request-table-container-historyvv .table-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.request-table-container-historyvv .table-container:hover {
+  background-color: #ddd;
+}
+
+.request-table-container-historyvv .table-container td {
+  padding: 10px 0;
+  padding-left: 0;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.request-table-container-historyvv .title {
+  color: #222132;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.request-table-container-historyvv .top-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-bottom: 40px;
+}
+
+.request-table-container-historyvv .create {
+  margin-top: -12px;
+  margin-right: 920px;
+  border: none;
+  color: #007fff;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.request-table-container-historyvv .fa-square-plus {
+  margin-right: 10px;
+}
+.request-table-container-historyvv .payment-container {
+  display: flex;
+  justify-content: center;
+}
+
+.request-table-container-historyvv .view-options {
+  height: 50px;
+  width: 175.5px;
+  margin-left: -200px;
+  border-radius: 24px;
+  background-color: #efefef;
+}
+
+.request-table-container-historyvv .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.request-table-container-historyvv .view-option {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  background-color: #efefef;
+  padding: 15px 10px;
+  margin: 0 0px;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+.request-table-container-historyvv .view-option.active {
+  color: #fff;
+  background-color: #007fff;
+}

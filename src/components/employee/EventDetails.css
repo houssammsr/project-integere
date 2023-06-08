@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+.event-details body {
+  margin: 0;
+  line-height: normal;
+}
+
+.event-details .event-img-icon {
+  position: relative;
+  border-radius: 50px;
+  width: 82px;
+  height: 73px;
+  object-fit: cover;
+}
+.event-details .event-title {
+  position: relative;
+}
+.event-details .organisation-name {
+  position: relative;
+  font-size: 14px;
+  color: #000;
+}
+.event-details .event-title-container {
+  width: 203px;
+  height: 51.54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.event-details .event-info {
+  width: 203px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.event-details .description {
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  display: inline-block;
+  width: 497px;
+}
+.event-details {
+  position: relative;
+  border-radius: 31.22px;
+  background-color: rgba(255, 255, 255, 1.77);
+  width: 605px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 50px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: 18px;
+  color: #222132;
+  font-family: Nunito;
+}

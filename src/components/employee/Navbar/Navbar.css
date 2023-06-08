@@ -1,0 +1,118 @@
+.NavbarItems {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 69px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.NavbarItems .navbar-logo {
+  background-color: white;
+  color: #171725;
+  display: inline-block;
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.NavbarItems .esi-logo-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.NavbarItems .esi-logo {
+  background-color: white;
+  width: 70px;
+  height: 73px;
+}
+
+.NavbarItems .nav-menu {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 0px;
+  list-style: none;
+  align-items: center;
+  padding-right: 340px;
+  margin-top: 0px;
+}
+
+.NavbarItems .nav-links {
+  display: flex;
+  background-color: white;
+  text-decoration: none;
+  color: #809fb8;
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 15px;
+  padding: 1.4rem 1rem;
+  cursor: pointer;
+}
+
+.NavbarItems .nav-links.active {
+  background-color: #eaeaea;
+}
+.NavbarItems .nav-links.active i {
+  background-color: #eaeaea;
+}
+.NavbarItems .nav-links i {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.NavbarItems .nav-links:hover i {
+  background-color: #eaeaea;
+}
+
+.NavbarItems .nav-links:hover {
+  background-color: #eaeaea;
+}
+
+.NavbarItems .nav-links-bell {
+  color: #3e4954;
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  margin-right: 30px;
+  font-weight: 600;
+  position: absolute;
+  right: 120px;
+  top: 12px;
+  background-color: white;
+}
+
+.NavbarItems .nav-links-user {
+  color: #007fff;
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  margin-right: 30px;
+  font-weight: 600;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .NavbarItems .nav-menu {
+    display: none;
+  }
+}

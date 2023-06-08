@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --surface-default: #fff;
+  --color-royalblue: #007fff;
+  --color-gainsboro: #dcdce4;
+  --color-gray: #1c1c1c;
+
+  /* Gaps */
+  --gap-16xl: 35px;
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-66xl: 85px;
+  --padding-110xl: 129px;
+  --padding-2xs: 11px;
+  --padding-40xl: 59px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-3xl: 22px;
+  --br-8xs: 5px;
+  --br-9xs: 4px;
+}
+.adresse1 {
+  position: relative;
+  font-weight: 500;
+}
+.adresseValue {
+  position: relative;
+  font-size: var(--font-size-xs);
+}
+.adresse,
+.changeAdresse {
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+.changeAdresse {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-decoration: underline;
+  color: var(--color-royalblue);
+  display: inline-block;
+}
+.adresse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+}

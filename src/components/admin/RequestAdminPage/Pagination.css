@@ -1,0 +1,30 @@
+.paginationversion2 {
+  display: flex;
+  justify-content: flex-end;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #e5e5e5;
+}
+
+.paginationversion2 .pagination-button {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color: #007fff;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  padding: 5px 15px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.paginationversion2 .pagination-button.active {
+  background-color: #007fff;
+  color: white;
+}
+
+.paginationversion2 .pagination-info {
+  margin: 0 10px;
+}

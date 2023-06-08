@@ -1,0 +1,62 @@
+.copy {
+  border: 1px solid var(--color-gainsboro);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-smi);
+  background-color: var(--surface-default);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  width: 195px;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.save {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--surface-default);
+  text-align: left;
+}
+.saveButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-40xl);
+  background-color: var(--color-royalblue);
+  border-radius: var(--br-8xs);
+  width: 67px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.changeNumberPopUp,
+.copyParent {
+  display: flex;
+  flex-direction: column;
+}
+.copyParent {
+  border-radius: var(--br-3xl);
+  background-color: var(--surface-default);
+  width: 287px;
+  height: 174px;
+  padding: var(--padding-66xl) var(--padding-110xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xl);
+}
+.changeNumberPopUp {
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}

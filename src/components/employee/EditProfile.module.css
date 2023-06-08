@@ -1,0 +1,37 @@
+.profileInformations {
+  position: relative;
+  font-weight: 600;
+}
+.editProfile,
+.editprofilecontainer,
+.profileinformations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profileinformations {
+  height: 405px;
+  padding: 0 0 0 49px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.editProfile,
+.editprofilecontainer {
+  justify-content: flex-start;
+}
+.editprofilecontainer {
+  gap: var(--gap-16xl);
+}
+.editProfile {
+  position: relative;
+  background-color: #e7ebf2;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 55px 109px 30px 58px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,478 @@
+.funds .allocated-sections-amount {
+  position: relative;
+}
+.funds .allocated-sections-amount1,
+.funds .dzd28 {
+  position: relative;
+  font-weight: 500;
+}
+.funds .dzd28 {
+  text-align: center;
+}
+.funds .amount-and-dzd-container28 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.funds .alocated-sections-amount {
+  border-radius: 11px;
+  background-color: #efefef;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 13px;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #2e2e2e;
+  font-family: Poppins;
+}
+.funds .allocated-sections-amount-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.funds .vector-icon41 {
+  position: relative;
+  width: 13px;
+  height: 15px;
+}
+.funds .icamount11 {
+  border-radius: 8px;
+  background-color: #2bc155;
+  width: 29px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 13px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.funds .allocated-amount2 {
+  position: relative;
+  font-size: 8px;
+  color: #8a8a8a;
+}
+.funds .second-section-allocated-amoun {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.funds .section-allocated-amount-conta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.funds .vector-icon42 {
+  position: relative;
+  width: 11px;
+  height: 15px;
+}
+.funds .icarticles {
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #fba556;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 13px;
+  align-items: center;
+  justify-content: center;
+}
+.funds .view-articles {
+  position: relative;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fba556;
+  text-align: left;
+}
+.funds .view-articles-button {
+  cursor: pointer;
+  border: 1px solid #fba556;
+  padding: 7px 18px;
+  background-color: transparent;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.funds .view-articles-button:hover {
+  background-color: #fba556;
+  box-shadow: 0 4px 14px 2px rgba(251, 165, 86, 0.3);
+}
+.funds .allocate-button1:hover .allocate1,
+.funds .allocate-button2:hover .allocate1,
+.funds .allocate-button3:hover .allocate1,
+.funds .allocate-button4:hover .allocate1,
+.funds .allocate-button:hover .allocate1,
+.funds .view-articles-button1:hover .view-articles,
+.funds .view-articles-button2:hover .view-articles,
+.funds .view-articles-button3:hover .view-articles,
+.funds .view-articles-button4:hover .view-articles,
+.funds .view-articles-button:hover .view-articles {
+  color: #fff;
+}
+.funds .alocate-icon {
+  position: relative;
+  width: 9px;
+  height: 15px;
+}
+.funds .icalocate {
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #007fff;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 13px;
+  align-items: center;
+  justify-content: center;
+}
+.funds .allocate1 {
+  position: relative;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #007fff;
+  text-align: left;
+}
+.funds .allocate-button {
+  cursor: pointer;
+  border: 1px solid #007fff;
+  padding: 7px 18px;
+  background-color: transparent;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.funds .allocate-button:hover {
+  background-color: #007fff;
+  box-shadow: 0 4px 14px 2px rgba(0, 127, 255, 0.3);
+}
+.funds .section,
+.funds .section-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.funds .section-details-container {
+  width: 515px;
+  font-size: 10px;
+  color: #2e2e2e;
+}
+.funds .section {
+  align-self: stretch;
+  border-radius: 21px;
+  background-color: #f4f4f4;
+  padding: 15px 41px 15px 26px;
+}
+.funds .section:hover {
+  box-shadow: 0-1px 10px 1px rgba(0, 0, 0, 0.07),
+    0 1px 10px 1px rgba(0, 0, 0, 0.07);
+}
+.funds .allocate-button1,
+.funds .allocate-button2,
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button1,
+.funds .view-articles-button2,
+.funds .view-articles-button3,
+.funds .view-articles-button4 {
+  cursor: pointer;
+  border: 1px solid #fba556;
+  padding: 7px 18px;
+  background-color: transparent;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.funds .view-articles-button1:hover {
+  background-color: #fba556;
+  box-shadow: 0 4px 14px 2px rgba(251, 165, 86, 0.3);
+}
+.funds .allocate-button1,
+.funds .allocate-button2,
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button2,
+.funds .view-articles-button3,
+.funds .view-articles-button4 {
+  border: 1px solid #007fff;
+}
+.funds .allocate-button1:hover {
+  background-color: #007fff;
+  box-shadow: 0 4px 14px 2px rgba(0, 127, 255, 0.3);
+}
+.funds .allocate-button2,
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button2,
+.funds .view-articles-button3,
+.funds .view-articles-button4 {
+  border: 1px solid #fba556;
+}
+.funds .view-articles-button2:hover {
+  background-color: #fba556;
+  box-shadow: 0 4px 14px 2px rgba(251, 165, 86, 0.3);
+}
+.funds .allocate-button2,
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button3,
+.funds .view-articles-button4 {
+  border: 1px solid #007fff;
+}
+.funds .allocate-button2:hover {
+  background-color: #007fff;
+  box-shadow: 0 4px 14px 2px rgba(0, 127, 255, 0.3);
+}
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button3,
+.funds .view-articles-button4 {
+  border: 1px solid #fba556;
+}
+.funds .view-articles-button3:hover {
+  background-color: #fba556;
+  box-shadow: 0 4px 14px 2px rgba(251, 165, 86, 0.3);
+}
+.funds .allocate-button3,
+.funds .allocate-button4,
+.funds .view-articles-button4 {
+  border: 1px solid #007fff;
+}
+.funds .allocate-button3:hover {
+  background-color: #007fff;
+  box-shadow: 0 4px 14px 2px rgba(0, 127, 255, 0.3);
+}
+.funds .allocate-button4,
+.funds .view-articles-button4 {
+  border: 1px solid #fba556;
+}
+.funds .view-articles-button4:hover {
+  background-color: #fba556;
+  box-shadow: 0 4px 14px 2px rgba(251, 165, 86, 0.3);
+}
+.funds .allocate-button4 {
+  border: 1px solid #007fff;
+}
+.funds .allocate-button4:hover {
+  background-color: #007fff;
+  box-shadow: 0 4px 14px 2px rgba(0, 127, 255, 0.3);
+}
+.funds .section-and-amount-container,
+.funds .sections-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.funds .sections-container {
+  align-self: stretch;
+  padding: 0 21px;
+  gap: 22px;
+  font-size: 12px;
+  color: #000;
+  font-family: Poppins;
+}
+.funds .section-and-amount-container {
+  flex: 1;
+  gap: 35px;
+}
+.funds .total-budjet {
+  position: relative;
+  font-weight: 600;
+}
+.funds .amount-and-dzd-container34,
+.funds .total-budget-amount-container1fund {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.funds .amount-and-dzd-container34 {
+  gap: 2px;
+}
+.funds .total-budget-amount-container1fund {
+  border-radius: 18px;
+  background-color: #dbdbdb;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 39px;
+  padding: 11px 15px;
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.funds .remaining-budget-container1,
+.funds .funds .total-budget-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  z-index: 0;
+}
+.funds .remaining-budget-container1 {
+  z-index: 1;
+}
+.funds .vector-icon51 {
+  position: relative;
+  width: 19px;
+  height: 22px;
+}
+.funds .icamount16 {
+  margin: 0 !important;
+  position: absolute;
+  top: 159px;
+  left: 164px;
+  border-radius: 10px;
+  background-color: #2bc155;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 13px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.funds .vector-icon52 {
+  position: relative;
+  width: 17px;
+  height: 18px;
+  display: none;
+}
+.funds .budget-icon {
+  cursor: pointer;
+  border: 0;
+  padding: 2px;
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  left: 183px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.funds .budjet-details {
+  border-radius: 20px;
+  background-color: #fff;
+  width: 222px;
+  height: 215px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 12px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 14px;
+  cursor: pointer;
+}
+.funds .budjet-details:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.25);
+}
+.funds .budjet-details:hover .vector-icon52 {
+  display: flex;
+}
+.funds .vector-icon53 {
+  position: relative;
+  width: 18.5px;
+  height: 20.38px;
+}
+.funds .move-funds-button1 {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+}
+.funds .budjet-and-button-container,
+.funds .move-funds-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.funds .move-funds-button {
+  cursor: pointer;
+  border: 1px solid #fba556;
+  padding: 12px 20px;
+  background-color: #fba556;
+  border-radius: 14px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 16px;
+}
+.funds .move-funds-button:hover {
+  background-color: #f7a152;
+  box-shadow: 0-1px 11px rgba(251, 165, 86, 0.2),
+    0 1px 11px rgba(251, 165, 86, 0.2);
+}
+.funds .budjet-and-button-container {
+  flex-direction: column;
+  gap: 77px;
+  font-size: 12px;
+  color: #414141;
+  font-family: Poppins;
+}
+.funds .funds,
+.funds .funds-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.funds .funds-container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 20px;
+}
+.funds {
+  position: relative;
+  background-color: #e7ebf2;
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 30px 36px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #222132;
+  font-family: Nunito;
+}

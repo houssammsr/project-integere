@@ -1,0 +1,227 @@
+.dateresu {
+  position: relative;
+  font-weight: 600;
+}
+.date-details,
+.date-input {
+  display: flex;
+  justify-content: flex-start;
+}
+.date-input {
+  border: 1px solid var(--color-darkgray-200);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 170px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-mini);
+  align-items: center;
+  outline: none;
+}
+.date-input:focus {
+  border: 1.5px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.date-details {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.date-icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 10.25%;
+  width: 7.89%;
+  top: 14.34%;
+  right: 35.96%;
+  bottom: 75.41%;
+  left: 56.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.resudial-exercise-input {
+  border: 1px solid var(--color-darkgray-200);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 191px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-mini);
+  align-items: center;
+  justify-content: flex-start;
+  outline: none;
+}
+.resudial-exercise-input:focus {
+  border: 1.5px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.resudial-exercise-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.recipe-designation-input {
+  border: 1px solid var(--color-darkgray-200);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  border-radius: var(--br-2xs);
+  box-sizing: border-box;
+  width: 318px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-mini);
+  align-items: center;
+  justify-content: flex-start;
+  outline: none;
+}
+.recipe-designation-input:focus {
+  border: 1.5px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.recipe-designation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 3;
+}
+.dollar-icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 9.76%;
+  width: 7.51%;
+  top: 51.23%;
+  right: 29.71%;
+  bottom: 39.01%;
+  left: 62.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.resudial-balance-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 0;
+}
+.plusicon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+.resudial-exercise1 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.resudial-exercise-button {
+  cursor: pointer;
+  border: 1px solid var(--color-royalblue-200);
+  padding: var(--padding-smi) var(--padding-lg);
+  background-color: var(--color-royalblue-200);
+  margin: 0 !important;
+  position: absolute;
+  top: 316px;
+  left: 141px;
+  border-radius: var(--br-2xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  z-index: 1;
+}
+.resudial-exercise-button:hover {
+  background-color: var(--color-royalblue-300);
+  box-shadow: 0 1px 11px rgba(0, 127, 255, 0.2),
+    0 1px 11px rgba(0, 127, 255, 0.2);
+}
+.resudial-exercise-button:active {
+  background-color: var(--color-royalblue-500);
+}
+.x-icon {
+  position: relative;
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.exit-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs);
+  background-color: var(--color-gainsboro-100);
+  margin: 0 !important;
+  position: absolute;
+  top: 27px;
+  left: 378px;
+  border-radius: var(--br-51xl);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  width: 22px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.card-bodyblur-effects,
+.resudialbalancepopup {
+  position: relative;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-bodyblur-effects {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(150px);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 430px;
+  padding: var(--padding-4xl) var(--padding-9xl) var(--padding-base);
+  align-items: flex-start;
+  gap: var(--gap-53xl);
+}
+.resudialbalancepopup {
+  overflow: hidden;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-main-text);
+  font-family: var(--font-poppins);
+}

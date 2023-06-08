@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+.dashboard body {
+  margin: 0;
+  line-height: normal;
+}
+.dashboard .event-img-icon1 {
+  position: relative;
+  border-radius: 50px;
+  width: 48px;
+  height: 44px;
+  object-fit: cover;
+}
+.dashboard .organisation-title {
+  position: relative;
+  color: #9babc5;
+}
+.dashboard .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.dashboard .img-and-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.dashboard .contact-text {
+  position: relative;
+  font-size: 9px;
+  font-weight: 500;
+  color: #9babc5;
+}
+.dashboard .icon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+.dashboard .phone-number {
+  position: relative;
+  font-weight: 500;
+}
+.dashboard .phone-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.dashboard .icon1 {
+  position: relative;
+  width: 12px;
+  height: 9px;
+}
+.dashboard .contact-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 7px;
+}
+.dashboard .event-infocontactifon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.dashboard .details {
+  position: relative;
+  font-size: 8px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #9babc5;
+  text-align: left;
+}
+.dashboard .vector-icon {
+  position: relative;
+  width: 7.5px;
+  height: 8.5px;
+}
+.dashboard .details-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 38px;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.dashboard .start-date-text {
+  position: relative;
+}
+.dashboard .icon2 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.dashboard .date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 7px;
+  color: #222132;
+}
+.dashboard .start-date-container {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.dashboard .vector-icon2 {
+  position: relative;
+  width: 7px;
+  height: 7px;
+}
+.dashboard .register {
+  position: relative;
+  font-size: 6px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+}
+.dashboard .validate-button {
+  cursor: pointer;
+  border: 1px solid #007fff;
+  padding: 5px 9px;
+  background-color: #007fff;
+  border-radius: 7px;
+  box-sizing: border-box;
+  width: 56px;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.dashboard .validate-button:hover {
+  background-color: #0077ed;
+}
+.dashboard .validate-button:active {
+  background-color: #0074e7;
+}
+.dashboard .detailsdatebutton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  color: #9babc5;
+}
+.dashboard .event-card {
+  border-radius: 31.22px;
+  background-color: #fff;
+  width: 260px;
+  height: 225px;
+  display: flex;
+  flex-direction: row;
+  padding: 23px 13px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.dashboard .event-card:hover {
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+}
+.dashboard .line {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 125px;
+}
+.dashboard .events-conatiner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 35px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+ .dashboard {
+  background-color: #e7ebf2;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 90px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 9px;
+  color: #222132;
+  font-family: Poppins;
+}

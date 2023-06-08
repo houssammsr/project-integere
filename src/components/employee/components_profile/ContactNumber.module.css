@@ -1,0 +1,33 @@
+.contactNumber1 {
+  position: relative;
+  font-weight: 500;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-xs);
+}
+.changeContactNumber,
+.contactNumber {
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+.changeContactNumber {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-decoration: underline;
+  color: var(--color-royalblue);
+  display: inline-block;
+}
+.contactNumber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+}

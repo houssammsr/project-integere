@@ -1,0 +1,305 @@
+.payout {
+  position: relative;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #3f9ae0;
+  text-align: left;
+}
+.allocation-button,
+.income-button,
+.payout-button {
+  cursor: pointer;
+  border: 0.7px solid #3f9ae0;
+  padding: 7px 15px;
+  background-color: #e9f5ff;
+  border-radius: 19px;
+  box-sizing: border-box;
+  width: 88px;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.allocation-button:hover,
+.income-button:hover,
+.payout-button:hover,
+.transfer-button:hover {
+  background-color: #3f9ae0;
+}
+.allocation-button:hover .payout,
+.income-button:hover .payout,
+.payout-button:hover .payout {
+  color: #fff;
+}
+.allocation-button,
+.income-button {
+  padding: 7px 20px;
+}
+.transfer {
+  position: relative;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+}
+.transfer-button {
+  cursor: pointer;
+  border: 0.7px solid #3f9ae0;
+  padding: 7px 20px;
+  background-color: #3f9ae0;
+  border-radius: 19px;
+  box-sizing: border-box;
+  width: 88px;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.transaction-types-buttons {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 38px;
+}
+.buttonssearch,
+.search-input {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.search-input {
+  border: 0;
+  font-family: Poppins;
+  font-size: 12px;
+  background-color: #cacaca;
+  border-radius: 61px;
+  width: 264px;
+  height: 34px;
+  padding: 4px 32px 4px 21px;
+  align-items: center;
+  justify-content: flex-start;
+  outline: none;
+}
+.search-input:focus {
+  border: 1.5px solid #2d2d2d;
+  box-sizing: border-box;
+}
+.buttonssearch {
+  align-self: stretch;
+  height: 76px;
+  padding: 0 25px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.transaction-id-tit {
+  position: relative;
+  font-weight: 500;
+}
+.full-name-title,
+.related-id-title,
+.transaction-id-title {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.full-name-title,
+.related-id-title {
+  width: 150px;
+}
+.full-name-title {
+  width: 208px;
+}
+.amount-title,
+.article-name-title,
+.creation-date-title,
+.payment-method-title,
+.type-title {
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.amount-title,
+.creation-date-title,
+.payment-method-title,
+.type-title {
+  width: 100px;
+}
+.amount-title,
+.creation-date-title,
+.payment-method-title {
+  width: 140px;
+}
+.amount-title,
+.creation-date-title {
+  width: 117px;
+}
+.amount-title {
+  width: 132px;
+  flex-direction: column;
+}
+.t-head {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.dzd,
+.transaction-id-var {
+  position: relative;
+}
+.dzd {
+  text-align: center;
+}
+.amount-and-dzd-container,
+.transactions-listing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.transactions-listing {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 25px;
+}
+.buttonssearchtable,
+.transactions-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.transactions-container {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  padding: 30px 21px;
+  justify-content: center;
+  gap: 28px;
+}
+.buttonssearchtable {
+  justify-content: flex-start;
+  gap: 19px;
+}
+.nbr-of-shows-transactions-deta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.back-ic-icon {
+  position: relative;
+  width: 6px;
+  height: 9px;
+}
+.previous-icone {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previous {
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #007fff;
+  text-align: left;
+}
+.btnprevious {
+  cursor: pointer;
+  border: 0;
+  padding: 5px 13px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 99px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.next-ic-icon {
+  position: relative;
+  width: 5.26px;
+  height: 9px;
+}
+.btnnext,
+.change-page-buttons {
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.btnnext {
+  cursor: pointer;
+  border: 0;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 99px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.change-page-buttons {
+  width: 210px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-details-container {
+  align-self: stretch;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 25px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #3e4954;
+}
+.transactions-of-transfer,
+.transactions-transfer-containe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.transactions-transfer-containe {
+  align-self: stretch;
+  flex: 1;
+  gap: 30px;
+}
+.transactions-of-transfer {
+  position: relative;
+  background-color: #e7ebf2;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 17px 29px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  font-family: Poppins;
+}

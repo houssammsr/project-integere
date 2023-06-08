@@ -1,0 +1,183 @@
+@keyframes shake-horizontal {
+  0%,
+  to {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.budget .total-budget {
+  position: relative;
+  font-weight: 600;
+}
+.budget .amount-and-dzd-container12,
+.budget .total-budget-amount-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.budget .amount-and-dzd-container12 {
+  gap: var(--gap-9xs);
+}
+.budget .total-budget-amount-container1 {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 55px;
+  padding: var(--padding-2xs) var(--padding-mid);
+  font-size: var(--font-size-mid);
+  color: var(--color-darkgray-200);
+}
+.budget .budget-details-container,
+.budget .total-budget-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.budget .budget-details-container {
+  gap: var(--gap-2xl);
+}
+.budget .plusicon2 {
+  position: relative;
+  width: 17px;
+  height: 17px;
+}
+.budget .resudial-exercise2 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-royalblue-200);
+  text-align: left;
+}
+.budget .resudial-exercise-button1 {
+  cursor: pointer;
+  border: 1px solid var(--color-royalblue-200);
+  padding: var(--padding-mini) var(--padding-base);
+  background-color: transparent;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+  width: 179px;
+  height: 51px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.budget .resudial-exercise-button1:hover {
+  background-color: rgba(0, 128, 255, 0.05);
+}
+.budget .resudial-exercise-button1:active {
+  background-color: rgba(0, 127, 255, 0.08);
+}
+.budget .add-balance1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.budget .add-balance-button1 {
+  cursor: pointer;
+  border: 1px solid var(--color-royalblue-200);
+  padding: var(--padding-mini) var(--padding-4xl);
+  background-color: var(--color-royalblue-200);
+  border-radius: var(--br-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.budget .add-balance-button1:hover {
+  background-color: var(--color-royalblue-400);
+  box-shadow: 0-1px 11px rgba(0, 127, 255, 0.2),
+    0 1px 11px rgba(0, 127, 255, 0.2);
+}
+.budget .add-balance-button1:active {
+  background-color: var(--color-royalblue-500);
+}
+.budget .budget-buttons-container,
+.budget .budget-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.budget .budget-buttons-container {
+  width: 434px;
+  flex-direction: row;
+}
+.budget .budget-container {
+  height: 308px;
+  flex-direction: column;
+  z-index: 0;
+}
+.budget .vector-icon20 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.budget .budget,
+.budget .go-back-button {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.budget .go-back-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-7xs);
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  width: 47px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.budget .go-back-button:hover {
+  animation: 5s linear 0s infinite normal none shake-horizontal;
+  opacity: 1;
+}
+.budget {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  min-height: 100vh;
+  padding: 65px 107px var(--padding-11xl) 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
